@@ -1,559 +1,279 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="An impressive and flawless site template that includes various UI elements and countless features, attractive ready-made blocks and rich pages, basically everything you need to create a unique and professional website.">
-  <meta name="keywords" content="Web design Sri Lanka, Sri Lanka web development, Responsive web design, Custom website design, Creative web solutions Sri Lanka, Professional website design, Affordable web design Sri Lanka, Mobile-friendly websites, SEO-friendly web design, Sri Lanka web designers">
-  <meta name="author" content="elemis">
-  <title>Devlab - Web Design in Sri Lanka</title>
-  <!-- google fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-  <link href="css2?family=IBM+Plex+Serif:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Manrope:wght@400;500;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="shortcut icon" href="assets/img/favicon.png">
-	<link rel="stylesheet" type="text/css" href="assets/fonts/unicons/unicons.css">
-  <link rel="stylesheet" href="assets/css/plugins.css">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="assets/css/colors/purple.css">
-  <link rel="preload" href="assets/css/fonts/urbanist.css" as="style" onload="this.rel='stylesheet'">
-  <style>
-    .language-select .nav-link{
-      color: #ffffff;
-    }
-    .language-select .nav-link:hover{
-      color: #ffffffb3;
-    }
-    .navbar-light.fixed.navbar-stick .language-select .nav-link{
-      color: #343f52;
-    }
-    .navbar-light.fixed.navbar-stick .language-select .nav-link:hover,
-    .navbar-light.fixed.navbar-stick .language-select .nav-link:after,
-    .navbar-light.fixed.navbar-stick .nav-link:hover{
-              color: #747ed1;
-    }
-      @media (min-width: 992px){
-      .navbar-expand-lg.navbar-light .dropdown:not(.dropdown-submenu)>.dropdown-toggle:after {
-          color: #747ed1;
-      }
-      }
-      @media (max-width: 991.98px){
-      .navbar-expand-lg .navbar-collapse .dropdown-toggle:after {
-        color: #ffffff !important;
-      }
-  }
-  </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thilina Jayawardana - UX/UI Designer</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/iconoir.css">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
+<body>
 
-<body class="!font-Urbanist !text-[0.85rem] ">
-  <div class="page-frame !bg-[#e0e9fa]">
-    <div class="grow shrink-0" >
-      <header class="relative wrapper">
-        <nav class="navbar navbar-expand-lg classic transparent !absolute navbar-dark">
-          <div class="container xl:flex-row lg:flex-row !flex-nowrap items-center">
-            <div class="navbar-brand w-full">
-              <a href="index.html">
-                <img class="logo-dark" src="assets/img/logo.png" srcset="assets/img/logo.png" alt="image">
-                <img class="logo-light" src="assets/img/logow.png" srcset="assets/img/logow.png" alt="image">
-              </a>
+    <main class="main-homepage">
+
+        <!-- Header -->
+        <header class="header-area">
+            <div class="container">
+                <div class="gx-row d-flex align-items-center justify-content-between">
+                    <a href="index.html" class="logo">
+                        <img src="assets/images/logo.svg" alt="Logo">
+                    </a>
+
+                    <nav class="navbar">
+                        <ul class="menu">
+                            <li class="active"><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="works.html">Works</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                        <a href="contact.html" class="theme-btn">Let's talk</a>
+                    </nav>
+
+                    <a href="contact.html" class="theme-btn">Let's talk</a>
+
+                    <div class="show-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
             </div>
-            <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
-            <div class="offcanvas-header xl:hidden lg:hidden flex items-center justify-between flex-row p-6">
-              <h3 class="text-white xl:text-[1.5rem] !text-[calc(1.275rem_+_0.3vw)] !mb-0">Devlab</h3>
-              <button type="button" class="btn-close btn-close-white mr-[-0.75rem] m-0 p-0 leading-none text-[#343f52] transition-all duration-[0.2s] ease-in-out border-0 motion-reduce:transition-none before:text-[1.05rem] before:content-['\ed3b'] before:w-[1.8rem] before:h-[1.8rem] before:leading-[1.8rem] before:shadow-none before:transition-[background] before:duration-[0.2s] before:ease-in-out before:flex before:justify-center before:items-center before:m-0 before:p-0 before:rounded-[100%] hover:no-underline bg-inherit before:bg-[rgba(255,255,255,.08)] before:font-Unicons hover:before:bg-[rgba(0,0,0,.11)] focus:outline-0" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-              <div class="offcanvas-body xl:!ml-auto lg:!ml-auto flex  flex-col !h-full">
-                <ul class="navbar-nav">
-                  <li class="nav-item !text-[#white]"><a class="nav-link scroll active" href="#home">Home</a></li>
-                  <li class="nav-item"><a class="nav-link scroll" href="#services">Services</a></li>
-                  <li class="nav-item"><a class="nav-link scroll" href="#process">Process</a></li>
-                  <li class="nav-item"><a class="nav-link scroll" href="#testimonials">Testimonials</a></li>
-                  <li class="nav-item"><a class="nav-link scroll" href="#contact">Contact</a></li>
-               
-                </ul>
-              </div>
-              <!-- /.offcanvas-body -->
-            </div>
-            <!-- /.navbar-collapse -->
-            <div class="navbar-other w-full !flex !ml-auto">
-              <ul class="navbar-nav !flex-row !items-center !ml-auto">
-                <li class="nav-item hidden xl:block lg:block md:block">
-                  <a href="tell:+94762301111" class="btn btn-sm btn-primary text-white !bg-[#3f78e0] border-[#3f78e0] hover:text-white hover:bg-[#3f78e0] hover:border-[#3f78e0] focus:shadow-[rgba(92,140,229,1)] active:text-white active:bg-[#3f78e0] active:border-[#3f78e0] disabled:text-white disabled:bg-[#3f78e0] disabled:border-[#3f78e0] !rounded-[50rem] hover:translate-y-[-0.15rem] hover:shadow-[0_0.25rem_0.75rem_rgba(30,34,40,0.15)]">+94 76 230 1111</a>
-                </li>
-                <li class="nav-item xl:hidden lg:hidden">
-                  <button class="hamburger offcanvas-nav-btn"><span></span></button>
-                </li>
-               
-              </ul>
-              <!-- /.navbar-nav -->
-            </div>
+        </header>
+
+        <!-- About -->
+        <section class="about-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6" data-aos="zoom-in">
+                        <div class="about-me-box shadow-box">
+                            <a class="overlay-link" href="about.html"></a>
+                            <img src="assets/images/bg1.png" alt="BG" class="bg-img">
+                            <div class="img-box">
+                                <img src="assets/images/me.png" alt="About Me">
+                            </div>
+                            <div class="infos">
+                                <h4>UX DESIGNER</h4>
+                                <h1>Thilina Jayawardana.</h1>
+                                <p>I am a Web Designer based in san francisco.</p>
+                                <a href="#" class="about-btn">
+                                    <img src="assets/images/icon.svg" alt="Button">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="about-credentials-wrap">
+                            <div data-aos="zoom-in">
+                                <div class="banner shadow-box">
+                                    <div class="marquee">
+                                        <div>
+                                          <span>LATEST WORK AND <b>FEATURED</b> <img src="assets/images/star1.svg" alt="Star"> LATEST WORK AND <b>FEATURED</b> <img src="assets/images/star1.svg" alt="Star"> LATEST WORK AND <b>FEATURED</b> <img src="assets/images/star1.svg" alt="Star"> LATEST WORK AND <b>FEATURED</b> LATEST WORK AND <img src="assets/images/star1.svg" alt="Star"> LATEST WORK AND <b>FEATURED</b> LATEST WORK AND <img src="assets/images/star1.svg" alt="Star"></span>
+                                        </div>
+                                      </div>
+                                </div>
+
+                            </div>
+
+                            <div class="gx-row d-flex gap-24">
+                                <div data-aos="zoom-in">
+                                    <div class="about-crenditials-box info-box shadow-box h-full">
+                                        <a class="overlay-link" href="credentials.html"></a>
+                                        <img src="assets/images/bg1.png" alt="BG" class="bg-img">
+                                        <img src="assets/images/sign.png" alt="Sign">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <div class="infos">
+                                                <h4>more about me</h4>
+                                                <h1>Credentials</h1>
+                                            </div>
     
-            <!-- /.navbar-other -->
-          </div>
-          <!-- /.container -->
-        </nav>
-        <!-- /.navbar -->
+                                            <a href="credentials.html" class="about-btn">
+                                                <img src="assets/images/icon.svg" alt="Button">
+                                            </a>
+    
+                                        </div>
+                                    </div>
+                                </div>
 
-        <!-- /.offcanvas -->
-      </header>
-      <!-- /header -->
-      <section class="video-wrapper relative overflow-hidden bg-overlay bg-overlay-gradient !px-0 !mt-0 min-h-[80vh] xl:rounded-[1rem] lg:rounded-[1rem] md:rounded-[1rem]" section id="services">
-        <video poster="assets/img/photos/movie2.jpg" src="assets/media/movie2.mp4" autoplay="" loop="" playsinline="" muted=""></video>
-        <div class="video-content absolute z-[2] w-full h-full flex items-center justify-center text-center flex-col left-0 top-0">
-          <div class="container !text-center">
-            <div class="flex flex-wrap mx-[-15px]">
-              <div class="lg:w-8/12 xl:w-6/12 w-full flex-[0_0_auto] px-[15px] max-w-full !text-center text-white !mx-auto">
-                <h1 class="xl:text-[2.7rem] text-[calc(1.395rem_+_1.74vw)] font-semibold !leading-[1.15] text-white mb-5"><span class="rotator-zoom">Rapid Solutions,Innovative Thinking,Top-Notch Support</span></h1>
-                <p class="lead !text-[1.2rem] !leading-[1.6] font-medium !mb-0 xxl:!mx-8">We are a digital agency specializing in web design, mobile development and seo optimization.</p>
-              </div>
-              <!-- /column -->
-            </div>
-          </div>
-          <!-- /.video-content -->
-        </div>
-        <!-- /.content-overlay -->
-      </section>
-      <!-- /section -->
+                                <div data-aos="zoom-in">
+                                    <div class="about-project-box info-box shadow-box h-full">
+                                        <a class="overlay-link" href="works.html"></a>
+                                        <img src="assets/images/bg1.png" alt="BG" class="bg-img">
+                                        <img src="assets/images/my-works.png" alt="My Works">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <div class="infos">
+                                                <h4>SHOWCASE</h4>
+                                                <h1>Projects</h1>
+                                            </div>
+    
+                                            <a href="#" class="about-btn">
+                                                <img src="assets/images/icon.svg" alt="Button">
+                                            </a>
+    
+                                        </div>
+                                    </div>
+                                </div>
 
-      
-      <section class="wrapper !bg-[#ffffff]" id="">
-        <div class="container py-[4.5rem] xl:pt-24 lg:pt-24 md:pt-24">
-          <div class="flex flex-wrap mx-[-15px] !text-center">
-            <div class="md:w-10/12 xl:w-8/12 lg:w-8/12 w-full flex-[0_0_auto] px-[15px] max-w-full xl:!ml-[16.66666667%] lg:!ml-[16.66666667%] md:!ml-[8.33333333%]">
-              <h2 class="text-[0.8rem] tracking-[0.02rem] uppercase text-[#aab0bc] !mb-3 !leading-[1.35]">What We Do?</h2>
-              <h3 class="text-[calc(1.315rem_+_0.78vw)] font-bold xl:text-[1.9rem] !leading-[1.25] mb-10 xl:!px-10">The service we offer is specifically designed to meet your needs.</h3>
-            </div>
-            <!-- /column -->
-          </div>
-          <!-- /.row -->
-          <div class="flex flex-wrap mx-[-15px] xl:mx-[-35px] lg:mx-[-20px] mt-[-30px] xl:mt-0 lg:mt-0 md:mt-0 !text-center">
-            <div class="md:w-6/12 lg:w-3/12 xl:w-3/12 w-full flex-[0_0_auto] px-[15px] xl:px-[35px] lg:px-[20px] max-w-full sm:mt-[30px] xsm:mt-[30px]">
-              <img src="assets/img/icons/lineal/megaphone.svg" class="svg-inject icon-svg icon-svg-md !w-[2.6rem] !h-[2.6rem] text-[#3f78e0] text-blue !mb-3  m-[0_auto]" alt="image">
-              <h4>Social Media Marketing</h4>
-              <p class="!mb-2">Ignite your brand's presence where every post inspires connection and engagement.
-              </p>
-            </div>
-            <!--/column -->
-            <div class="md:w-6/12 lg:w-3/12 xl:w-3/12 w-full flex-[0_0_auto] px-[15px] xl:px-[35px] lg:px-[20px] max-w-full sm:mt-[30px] xsm:mt-[30px]">
-              <img src="assets/img/icons/lineal/target.svg" class="svg-inject icon-svg icon-svg-md !w-[2.6rem] !h-[2.6rem] text-[#45c4a0] text-green !mb-3 m-[0_auto]" alt="image">
-              <h4>Web Design (UI/UX)</h4>
-              <p class="!mb-2">Unlock the digital potential of your brand where innovation meets amazing creativity.</p>
-            </div>
-            <!--/column -->
-            <div class="md:w-6/12 lg:w-3/12 xl:w-3/12 w-full flex-[0_0_auto] px-[15px] xl:px-[35px] lg:px-[20px] max-w-full sm:mt-[30px] xsm:mt-[30px]">
-              <img src="assets/img/icons/lineal/settings-3.svg" class="svg-inject icon-svg icon-svg-md !w-[2.6rem] !h-[2.6rem] text-[#fab758] text-yellow !mb-3  m-[0_auto]" alt="image">
-              <h4>Web Development</h4>
-              <p class="!mb-2">Embark on a journey of digital transformation with Devlab Web Solutions' unparalleled web development talent – where every line of code tells your brand's unique story.
-              </p>
-            </div>
-            <!--/column -->
-            <div class="md:w-6/12 lg:w-3/12 xl:w-3/12 w-full flex-[0_0_auto] px-[15px] xl:px-[35px] lg:px-[20px] max-w-full sm:mt-[30px] xsm:mt-[30px]">
-              <img src="assets/img/icons/lineal/bar-chart.svg" class="svg-inject icon-svg icon-svg-md !w-[2.6rem] !h-[2.6rem] text-[#f78b77] text-orange !mb-3 m-[0_auto]" alt="image">
-              <h4>Data Analysis</h4>
-              <p class="!mb-2">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras justo cum sociis natoque magnis.</p>
-            </div>
-            <!--/column -->
-          </div>
-          <!-- /.relative -->
-        </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
+                <div class="row mt-24">
+                    <div class="col-md-12">
+                        <div class="blog-service-profile-wrap d-flex gap-24">
+                            <div data-aos="zoom-in">
+                                <div class="about-blog-box info-box shadow-box h-full">
+                                    <a href="blog.html" class="overlay-link"></a>
+                                    <img src="assets/images/bg1.png" alt="BG" class="bg-img">
+                                    <img src="assets/images/gfonts.png" alt="GFonts">
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <div class="infos">
+                                            <h4>Blog</h4>
+                                            <h1>GFonts</h1>
+                                        </div>
+    
+                                        <a href="blog.html" class="about-btn">
+                                            <img src="assets/images/icon.svg" alt="Button">
+                                        </a>
+    
+                                    </div>
+                                </div>
+                            </div>
 
+                            <div data-aos="zoom-in" class="flex-1">
+                                <div class="about-services-box info-box shadow-box h-full">
+                                    <a href="service.html" class="overlay-link"></a>
+                                    <img src="assets/images/bg1.png" alt="BG" class="bg-img">
+                                    <div class="icon-boxes">
+                                        <i class="iconoir-camera"></i>
+                                        <i class="iconoir-design-pencil"></i>
+                                        <i class="iconoir-color-filter"></i>
+                                        <i class="iconoir-dev-mode-phone"></i>
+                                    </div>
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <div class="infos">
+                                            <h4>specialization</h4>
+                                            <h1>Services Offering</h1>
+                                        </div>
+    
+                                        <a href="service.html" class="about-btn">
+                                            <img src="assets/images/icon.svg" alt="Button">
+                                        </a>
+    
+                                    </div>
+                                </div>
+                            </div>
 
+                            <div data-aos="zoom-in">
+                                <div class="about-profile-box info-box shadow-box h-full">
+                                    <img src="assets/images/bg1.png" alt="BG" class="bg-img">
+                                    <div class="inner-profile-icons shadow-box">
+                                        <a href="#">
+                                            <i class="iconoir-dribbble"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="iconoir-twitter"></i>
+                                        </a>
+                                    </div>
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <div class="infos">
+                                            <h4>Stay with me</h4>
+                                            <h1>Profiles</h1>
+                                        </div>
+    
+                                        <a href="contact.html" class="about-btn">
+                                            <img src="assets/images/icon.svg" alt="Button">
+                                        </a>
+    
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                </div>
 
-        
-        <!-- /.container -->
-      </section>
-      <!-- /section -->
-      <section class="wrapper !bg-[#ffffff]">
-        <div class="container py-[5rem] xl:!py-[7rem] lg:!py-[7rem] md:!py-[7rem]">
-          <div class="flex flex-wrap mx-[-15px] !text-center">
-            <div class="lg:w-10/12 xl:w-10/12 w-full flex-[0_0_auto] px-[15px] max-w-full !mx-auto !relative">
-              <div class="!relative">
-                <div class="shape pale-pink rellax !w-[8rem] !h-[8rem] !absolute z-[1]" data-rellax-speed="1" style="top: 1rem; left: -4.2rem;">
-                  <img src="assets/img/svg/hex.svg" class="svg-inject icon-svg !w-full !h-full" alt="image">
-                </div>
-                <div class="shape pale-purple rellax !w-[8rem] !h-[8rem] !absolute z-[1]" data-rellax-speed="1" style="bottom: 2rem; right: -3.5rem;">
-                  <img src="assets/img/svg/circle.svg" class="svg-inject icon-svg !w-full !h-full" alt="image">
-                </div>
-                <video poster="assets/img/photos/movie.jpg" class="player relative z-[2] rounded-[0.4rem]" playsinline="" controls="" preload="none">
-                  <source src="assets/media/movie.mp4" type="video/mp4">
-                  <source src="./assets/media/movie.webm" type="video/webm">
-                </video>
-              </div>
-            </div>
-            <!--/column -->
-          </div>
-          <!--/.row -->
-          <div class="flex flex-wrap mx-[-15px] !text-center mt-[3.5rem]">
-            <div class="xl:w-10/12 lg:w-10/12 w-full flex-[0_0_auto] px-[15px] max-w-full !mx-auto">
-              <h2 class="text-[0.8rem] tracking-[0.02rem] uppercase text-[#aab0bc] !mb-3 !leading-[1.35]">Our Working Process</h2>
-              <h3 class="xl:text-[2.1rem] text-[calc(1.335rem_+_1.02vw)] !leading-[1.2] font-semibold xl:!px-10 xxl:!px-20 mb-10">Find out everything you need to know about creating a business process model</h3>
-              <div class="flex flex-wrap mx-[-15px] xl:mx-[-35px] lg:mx-[-20px] process-wrapper arrow !text-center">
-                <div class="xl:w-4/12 lg:w-4/12 md:w-4/12 w-full flex-[0_0_auto] px-[15px] xl:px-[35px] lg:px-[20px] max-w-full"> <img src="assets/img/icons/solid/bulb.svg" class="svg-inject icon-svg !w-[2.2rem] !h-[2.2rem]  solid-duo text-purple-pink mb-4 m-[0_auto]" alt="image">
-                  <h3 class="text-[1.1rem]">1. Collect Ideas</h3>
-                  <p>Etiam porta malesuada magna mollis euismod consectetur leo elit.</p>
-                </div>
-                <!--/column -->
-                <div class="xl:w-4/12 lg:w-4/12 md:w-4/12 w-full flex-[0_0_auto] px-[15px] xl:px-[35px] lg:px-[20px] max-w-full"> <img src="assets/img/icons/solid/compare.svg" class="svg-inject icon-svg !w-[2.2rem] !h-[2.2rem]  solid-duo text-purple-pink mb-4 m-[0_auto]" alt="image">
-                  <h3 class="text-[1.1rem]">2. Data Analysis</h3>
-                  <p>Etiam porta malesuada magna mollis euismod consectetur leo elit.</p>
-                </div>
-                <!--/column -->
-                <div class="xl:w-4/12 lg:w-4/12 md:w-4/12 w-full flex-[0_0_auto] px-[15px] xl:px-[35px] lg:px-[20px] max-w-full"> <img src="assets/img/icons/solid/delivery-box.svg" class="svg-inject icon-svg !w-[2.2rem] !h-[2.2rem]  solid-duo text-purple-pink mb-4 m-[0_auto]" alt="image">
-                  <h3 class="text-[1.1rem]">3. Finalize Product</h3>
-                  <p>Etiam porta malesuada magna mollis euismod consectetur leo elit.</p>
-                </div>
-                <!--/column -->
-              </div>
-              <!--/.row -->
-            </div>
-            <!-- /column -->
-          </div>
-          <!-- /.row -->
-        </div>
-        <!-- /.container -->
-      </section>
-      <!-- /section -->
-      <section class="wrapper !bg-[#ffffff]">
-        <div class="container py-[5rem] xl:!py-[7rem] lg:!py-[7rem] md:!py-[7rem]">
-          <div class="flex flex-wrap mx-[-15px]">
-            <div class="lg:w-11/12 xl:w-10/12 w-full flex-[0_0_auto] px-[15px] max-w-full !mx-auto mb-10">
-              <h2 class="text-[0.8rem] uppercase text-[#aab0bc] !text-center !mb-3 !leading-[1.35]">Our Projects</h2>
-              <h3 class="xl:text-[2.1rem] text-[calc(1.335rem_+_1.02vw)] !leading-[1.2] font-semibold !text-center lg:!px-5 xl:!px-10 xxl:!px-[6rem]  !mb-0">Check out some of our awesome projects with creative ideas and great design.</h3>
-            </div>
-            <!-- /column -->
-          </div>
-          <!-- /.row -->
-        <div class="itemgrid grid-view projects-masonry">
-          <div class="flex flex-wrap mx-[-15px] xl:mx-[-20px] lg:mx-[-20px] md:mx-[-20px] mt-[-50px] xl:mt-[-80px] lg:mt-[-80px] md:mt-[-80px] isotope">
-            <div class="project item group md:w-6/12 lg:w-6/12 xl:w-4/12 w-full flex-[0_0_auto] xl:px-[20px] lg:px-[20px] md:px-[20px] px-[15px] mt-[50px] xl:mt-[80px] lg:mt-[80px] md:mt-[80px] max-w-full">
-              <figure class="!rounded-[.4rem] !mb-6"><img class="!rounded-[.4rem]" src="assets/img/photos/pd7.jpg" srcset="assets/img/photos/pd7%402x.jpg 2x" alt="image"><a class="item-link absolute w-[2.2rem] h-[2.2rem] leading-[2.2rem] z-[1] transition-all duration-[0.3s] ease-in-out opacity-0 text-[#343f52] shadow-[0_0.25rem_0.75rem_rgba(30,34,40,0.02)] text-[1rem] flex items-center justify-center rounded-[100%] right-0 bottom-4 bg-[rgba(255,255,255,.7)] hover:bg-[rgba(255,255,255,.9)] hover:!text-[#343f52] group-hover:opacity-100 group-hover:right-[1rem]" href="assets/img/photos/pd7-full.jpg" data-glightbox="" data-gallery="projects-group"><i class="uil uil-focus-add before:content-['\eb22']"></i></a></figure>
-              <div class="project-details flex justify-center flex-col">
-                <div class="post-header">
-                  <h2 class="post-title h3 !text-[1.1rem] !leading-[1.4]"><a href="single-project.html" class="text-[#343f52] hover:text-[#3f78e0]">Cras Fermentum Sem</a></h2>
-                  <div class="uppercase tracking-[0.02rem] text-[0.7rem] font-bold mb-[0.4rem] text-[#9499a3]">Stationary</div>
-                </div>
-                <!-- /.post-header -->
-              </div>
-              <!-- /.project-details -->
-            </div>
-            <!-- /.item -->
-            <div class="project item group md:w-6/12 lg:w-6/12 xl:w-4/12 w-full flex-[0_0_auto] xl:px-[20px] lg:px-[20px] md:px-[20px] px-[15px] mt-[50px] xl:mt-[80px] lg:mt-[80px] md:mt-[80px] max-w-full">
-              <figure class="!rounded-[.4rem] !mb-6"><img class="!rounded-[.4rem]" src="assets/img/photos/pd8.jpg" srcset="assets/img/photos/pd8%402x.jpg 2x" alt="image"><a class="item-link absolute w-[2.2rem] h-[2.2rem] leading-[2.2rem] z-[1] transition-all duration-[0.3s] ease-in-out opacity-0 text-[#343f52] shadow-[0_0.25rem_0.75rem_rgba(30,34,40,0.02)] text-[1rem] flex items-center justify-center rounded-[100%] right-0 bottom-4 bg-[rgba(255,255,255,.7)] hover:bg-[rgba(255,255,255,.9)] hover:!text-[#343f52] group-hover:opacity-100 group-hover:right-[1rem]" href="assets/img/photos/pd8-full.jpg" data-glightbox="" data-gallery="projects-group"><i class="uil uil-focus-add before:content-['\eb22']"></i></a></figure>
-              <div class="project-details flex justify-center flex-col">
-                <div class="post-header">
-                  <h2 class="post-title h3 !text-[1.1rem] !leading-[1.4]"><a href="single-project2.html" class="text-[#343f52] hover:text-[#3f78e0]">Mollis Ipsum Mattis</a></h2>
-                  <div class="uppercase tracking-[0.02rem] text-[0.7rem] font-bold mb-[0.4rem] text-[#9499a3]">Magazine, Book</div>
-                </div>
-                <!-- /.post-header -->
-              </div>
-              <!-- /.project-details -->
-            </div>
-            <!-- /.item -->
-            <div class="project item group md:w-6/12 lg:w-6/12 xl:w-4/12 w-full flex-[0_0_auto] xl:px-[20px] lg:px-[20px] md:px-[20px] px-[15px] mt-[50px] xl:mt-[80px] lg:mt-[80px] md:mt-[80px] max-w-full">
-              <figure class="!rounded-[.4rem] !mb-6"><img class="!rounded-[.4rem]" src="assets/img/photos/pd9.jpg" srcset="assets/img/photos/pd9%402x.jpg 2x" alt="image"><a class="item-link absolute w-[2.2rem] h-[2.2rem] leading-[2.2rem] z-[1] transition-all duration-[0.3s] ease-in-out opacity-0 text-[#343f52] shadow-[0_0.25rem_0.75rem_rgba(30,34,40,0.02)] text-[1rem] flex items-center justify-center rounded-[100%] right-0 bottom-4 bg-[rgba(255,255,255,.7)] hover:bg-[rgba(255,255,255,.9)] hover:!text-[#343f52] group-hover:opacity-100 group-hover:right-[1rem]" href="assets/img/photos/pd9-full.jpg" data-glightbox="" data-gallery="projects-group"><i class="uil uil-focus-add before:content-['\eb22']"></i></a></figure>
-              <div class="project-details flex justify-center flex-col">
-                <div class="post-header">
-                  <h2 class="post-title h3 !text-[1.1rem] !leading-[1.4]"><a href="single-project3.html" class="text-[#343f52] hover:text-[#3f78e0]">Ipsum Ultricies Cursus</a></h2>
-                  <div class="uppercase tracking-[0.02rem] text-[0.7rem] font-bold mb-[0.4rem] text-[#9499a3]">Packaging</div>
-                </div>
-                <!-- /.post-header -->
-              </div>
-              <!-- /.project-details -->
-            </div>
-            <!-- /.item -->
-            <div class="project item group md:w-6/12 lg:w-6/12 xl:w-4/12 w-full flex-[0_0_auto] xl:px-[20px] lg:px-[20px] md:px-[20px] px-[15px] mt-[50px] xl:mt-[80px] lg:mt-[80px] md:mt-[80px] max-w-full">
-              <figure class="!rounded-[.4rem] !mb-6"><img class="!rounded-[.4rem]" src="assets/img/photos/pd10.jpg" srcset="assets/img/photos/pd10%402x.jpg 2x" alt="image"><a class="item-link absolute w-[2.2rem] h-[2.2rem] leading-[2.2rem] z-[1] transition-all duration-[0.3s] ease-in-out opacity-0 text-[#343f52] shadow-[0_0.25rem_0.75rem_rgba(30,34,40,0.02)] text-[1rem] flex items-center justify-center rounded-[100%] right-0 bottom-4 bg-[rgba(255,255,255,.7)] hover:bg-[rgba(255,255,255,.9)] hover:!text-[#343f52] group-hover:opacity-100 group-hover:right-[1rem]" href="assets/img/photos/pd10-full.jpg" data-glightbox="" data-gallery="projects-group"><i class="uil uil-focus-add before:content-['\eb22']"></i></a></figure>
-              <div class="project-details flex justify-center flex-col">
-                <div class="post-header">
-                  <h2 class="post-title h3 !text-[1.1rem] !leading-[1.4]"><a href="single-project.html" class="text-[#343f52] hover:text-[#3f78e0]">Inceptos Euismod Egestas</a></h2>
-                  <div class="uppercase tracking-[0.02rem] text-[0.7rem] font-bold mb-[0.4rem] text-[#9499a3]">Stationary, Branding</div>
-                </div>
-                <!-- /.post-header -->
-              </div>
-              <!-- /.project-details -->
-            </div>
-            <!-- /.item -->
-            <div class="project item group md:w-6/12 lg:w-6/12 xl:w-4/12 w-full flex-[0_0_auto] xl:px-[20px] lg:px-[20px] md:px-[20px] px-[15px] mt-[50px] xl:mt-[80px] lg:mt-[80px] md:mt-[80px] max-w-full">
-              <figure class="!rounded-[.4rem] !mb-6"><img class="!rounded-[.4rem]" src="assets/img/photos/pd11.jpg" srcset="assets/img/photos/pd11%402x.jpg 2x" alt="image"><a class="item-link absolute w-[2.2rem] h-[2.2rem] leading-[2.2rem] z-[1] transition-all duration-[0.3s] ease-in-out opacity-0 text-[#343f52] shadow-[0_0.25rem_0.75rem_rgba(30,34,40,0.02)] text-[1rem] flex items-center justify-center rounded-[100%] right-0 bottom-4 bg-[rgba(255,255,255,.7)] hover:bg-[rgba(255,255,255,.9)] hover:!text-[#343f52] group-hover:opacity-100 group-hover:right-[1rem]" href="assets/img/photos/pd11-full.jpg" data-glightbox="" data-gallery="projects-group"><i class="uil uil-focus-add before:content-['\eb22']"></i></a></figure>
-              <div class="project-details flex justify-center flex-col">
-                <div class="post-header">
-                  <h2 class="post-title h3 !text-[1.1rem] !leading-[1.4]"><a href="single-project2.html" class="text-[#343f52] hover:text-[#3f78e0]">Ipsum Mollis Vulputate</a></h2>
-                  <div class="uppercase tracking-[0.02rem] text-[0.7rem] font-bold mb-[0.4rem] text-[#9499a3]">Packaging</div>
-                </div>
-                <!-- /.post-header -->
-              </div>
-              <!-- /.project-details -->
-            </div>
-            <!-- /.item -->
-            <div class="project item group md:w-6/12 lg:w-6/12 xl:w-4/12 w-full flex-[0_0_auto] xl:px-[20px] lg:px-[20px] md:px-[20px] px-[15px] mt-[50px] xl:mt-[80px] lg:mt-[80px] md:mt-[80px] max-w-full">
-              <figure class="!rounded-[.4rem] !mb-6"><img class="!rounded-[.4rem]" src="assets/img/photos/pd12.jpg" srcset="assets/img/photos/pd12%402x.jpg 2x" alt="image"><a class="item-link absolute w-[2.2rem] h-[2.2rem] leading-[2.2rem] z-[1] transition-all duration-[0.3s] ease-in-out opacity-0 text-[#343f52] shadow-[0_0.25rem_0.75rem_rgba(30,34,40,0.02)] text-[1rem] flex items-center justify-center rounded-[100%] right-0 bottom-4 bg-[rgba(255,255,255,.7)] hover:bg-[rgba(255,255,255,.9)] hover:!text-[#343f52] group-hover:opacity-100 group-hover:right-[1rem]" href="assets/img/photos/pd12-full.jpg" data-glightbox="" data-gallery="projects-group"><i class="uil uil-focus-add before:content-['\eb22']"></i></a></figure>
-              <div class="project-details flex justify-center flex-col">
-                <div class="post-header">
-                  <h2 class="post-title h3 !text-[1.1rem] !leading-[1.4]"><a href="single-project3.html" class="text-[#343f52] hover:text-[#3f78e0]">Porta Ornare Cras</a></h2>
-                  <div class="uppercase tracking-[0.02rem] text-[0.7rem] font-bold mb-[0.4rem] text-[#9499a3]">Branding</div>
-                </div>
-                <!-- /.post-header -->
-              </div>
-              <!-- /.project-details -->
-            </div>
-            <!-- /.item -->
-          </div>
-          <!-- /.row -->
-        </div>
-          <!-- /.grid -->
-          <div class="text-center mt-10">
-            <a href="#" class="btn btn-lg btn-purple text-white !bg-[#747ed1] border-[#747ed1] hover:text-white hover:bg-[#747ed1] hover:border-[#747ed1] focus:shadow-[rgba(92,140,229,1)] active:text-white active:bg-[#747ed1] active:border-[#747ed1] disabled:text-white disabled:bg-[#747ed1] disabled:border-[#747ed1] !rounded-[50rem] hover:translate-y-[-0.15rem] hover:shadow-[0_0.25rem_0.75rem_rgba(30,34,40,0.15)]">Start a Project</a>
-          </div>
-        </div>
-        <!-- /.container -->
-      </section>
-      <!-- /section -->
-      <section class="wrapper !bg-[#ffffff]">
-        <div class="container py-[5rem] xl:!py-[7rem] lg:!py-[7rem] md:!py-[7rem]">
-          <div class="flex flex-wrap mx-[-15px] xl:mx-[-35px] lg:mx-[-20px] mt-[-50px] xl:mt-0 lg:mt-0">
-            <div class="xl:w-4/12 lg:w-4/12 w-full flex-[0_0_auto] xl:px-[35px] lg:px-[20px] md:px-[20px] px-[15px] max-w-full mt-[50px] xl:mt-2 lg:mt-2">
-              <h2 class="text-[0.8rem] uppercase text-[#aab0bc] !mb-3 !leading-[1.35]">Our Clients</h2>
-              <h3 class="xl:text-[2.1rem] text-[calc(1.335rem_+_1.02vw)] !leading-[1.2] font-semibold mb-3 xxl:pr-5">Trusted by over 300+ clients</h3>
-              <p class="lead !text-[1.1rem] !leading-[1.55] font-medium !mb-0 xxl:pr-5">We bring solutions to make life easier for our customers.</p>
-            </div>
-            <!-- /column -->
-            <div class="xl:w-8/12 lg:w-8/12 w-full flex-[0_0_auto] xl:px-[35px] lg:px-[20px] md:px-[20px] px-[15px] max-w-full mt-[50px] xl:mt-0 lg:mt-0">
-              <div class="flex flex-wrap mx-[-15px] md:mx-[-20px] xl:mx-[-35px] mt-[-70px]">
-                <div class="xl:w-3/12 lg:w-3/12 md:w-3/12 w-6/12 flex-[0_0_auto] xl:px-[35px] lg:px-[20px] md:px-[20px] px-[15px] max-w-full mt-[70px]">
-                  <figure class="px-3 xl:!px-0 lg:!px-0 md:!px-0 xxl:!px-2"><img src="assets/img/brands/z1.png" alt="image"></figure>
-                </div>
-                <!--/column -->
-                <div class="xl:w-3/12 lg:w-3/12 md:w-3/12 w-6/12 flex-[0_0_auto] xl:px-[35px] lg:px-[20px] md:px-[20px] px-[15px] max-w-full mt-[70px]">
-                  <figure class="px-3 xl:!px-0 lg:!px-0 md:!px-0 xxl:!px-2"><img src="assets/img/brands/z2.png" alt="image"></figure>
-                </div>
-                <!--/column -->
-                <div class="xl:w-3/12 lg:w-3/12 md:w-3/12 w-6/12 flex-[0_0_auto] xl:px-[35px] lg:px-[20px] md:px-[20px] px-[15px] max-w-full mt-[70px]">
-                  <figure class="px-3 xl:!px-0 lg:!px-0 md:!px-0 xxl:!px-2"><img src="assets/img/brands/z3.png" alt="image"></figure>
-                </div>
-                <!--/column -->
-                <div class="xl:w-3/12 lg:w-3/12 md:w-3/12 w-6/12 flex-[0_0_auto] xl:px-[35px] lg:px-[20px] md:px-[20px] px-[15px] max-w-full mt-[70px]">
-                  <figure class="px-3 xl:!px-0 lg:!px-0 md:!px-0 xxl:!px-2"><img src="assets/img/brands/z4.png" alt="image"></figure>
-                </div>
-                <!--/column -->
-                <div class="xl:w-3/12 lg:w-3/12 md:w-3/12 w-6/12 flex-[0_0_auto] xl:px-[35px] lg:px-[20px] md:px-[20px] px-[15px] max-w-full mt-[70px]">
-                  <figure class="px-3 xl:!px-0 lg:!px-0 md:!px-0 xxl:!px-2"><img src="assets/img/brands/z5.png" alt="image"></figure>
-                </div>
-                <!--/column -->
-                <div class="xl:w-3/12 lg:w-3/12 md:w-3/12 w-6/12 flex-[0_0_auto] xl:px-[35px] lg:px-[20px] md:px-[20px] px-[15px] max-w-full mt-[70px]">
-                  <figure class="px-3 xl:!px-0 lg:!px-0 md:!px-0 xxl:!px-2"><img src="assets/img/brands/z6.png" alt="image"></figure>
-                </div>
-                <!--/column -->
-                <div class="xl:w-3/12 lg:w-3/12 md:w-3/12 w-6/12 flex-[0_0_auto] xl:px-[35px] lg:px-[20px] md:px-[20px] px-[15px] max-w-full mt-[70px]">
-                  <figure class="px-3 xl:!px-0 lg:!px-0 md:!px-0 xxl:!px-2"><img src="assets/img/brands/z7.png" alt="image"></figure>
-                </div>
-                <!--/column -->
-                <div class="xl:w-3/12 lg:w-3/12 md:w-3/12 w-6/12 flex-[0_0_auto] xl:px-[35px] lg:px-[20px] md:px-[20px] px-[15px] max-w-full mt-[70px]">
-                  <figure class="px-3 xl:!px-0 lg:!px-0 md:!px-0 xxl:!px-2"><img src="assets/img/brands/z8.png" alt="image"></figure>
-                </div>
-                <!--/column -->
-              </div>
-              <!--/.row -->
-            </div>
-            <!-- /column -->
-          </div>
-          <!-- /.row -->
-        </div>
-        <!-- /.container -->
-      </section>
-      <!-- /section -->
-      <section class="wrapper !bg-[#ffffff]">
-        <div class="container pt-20 xl:pt-28 lg:pt-28 md:pt-28">
-          <div class="flex flex-wrap mx-[-15px] xsm:mt-[-50px] mt-[-80px] md:mx-[-20px] lg:mx-[-20px] xl:mx-[-35px] items-center mb-20 xl:!mb-[7rem] lg:!mb-[7rem] md:!mb-[7rem]">
-            <div class="xl:w-6/12 lg:w-6/12 w-full flex-[0_0_auto] px-[15px] xsm:mt-[50px] mt-[80px] md:px-[20px] lg:px-[20px] xl:px-[35px] max-w-full !relative">
-            <a href="assets/media/movie.mp4" class="btn btn-circle btn-white btn-play ripple !mx-auto mb-5 !absolute xl:text-[2.3rem] text-[calc(1.355rem_+_1.26vw)] w-[3.5rem] h-[3.5rem] !inline-flex !items-center !justify-center !leading-none !p-0 !rounded-[100%] before:!bg-[#ffffff] after:!bg-[#ffffff] before:content-[''] before:block before:absolute before:opacity-80 before:animate-[ripple-1_2s_infinite_ease-in-out] before:z-[-1] before:rounded-[50%] before:inset-0 after:content-[''] after:block after:absolute after:z-[-1] after:rounded-[50%] after:inset-0 after:opacity-60 after:animate-[ripple-2_2s_infinite_ease-in-out] after:[animation-delay:0.5s]" style="top:50%; left: 50%; transform: translate(-50%,-50%); z-index:3;" data-glightbox=""><i class="icn-caret-right ml-[0.15rem] !relative z-[2] before:content-['\e900'] text-[calc(1.355rem_+_1.26vw)] text-[#262b32]"></i></a>
-            <figure class="!rounded-[.4rem] relative z-[2]"><img class="!rounded-[.4rem]" src="assets/img/photos/about12.jpg" srcset="assets/img/photos/about12%402x.jpg 2x" alt="image"></figure>
-            </div>
-            <!--/column -->
-            <div class="xl:w-6/12 lg:w-6/12 w-full flex-[0_0_auto] px-[15px] xsm:mt-[50px] mt-[80px] md:px-[20px] lg:px-[20px] xl:px-[35px] max-w-full">
-              <h2 class="text-[0.8rem] tracking-[0.02rem] uppercase text-[#aab0bc] !mb-3 !leading-[1.35]">What Makes Us Different?</h2>
-              <h3 class="xl:text-[2.1rem] text-[calc(1.335rem_+_1.02vw)] !leading-[1.2] font-semibold !mb-8">We make spending stress free so you have the perfect control.</h3>
-              <div class="flex flex-wrap mx-[-15px] mt-[-30px]">
-                <div class="xl:w-6/12 lg:w-6/12 md:w-6/12 w-full flex-[0_0_auto] px-[15px] max-w-full mt-[30px]">
-                  <div class="flex flex-row">
-                    <div>
-                      <img src="assets/img/icons/solid/lamp.svg" class="svg-inject icon-svg !w-[1.8rem] !h-[1.8rem]  solid-mono text-[#e668b3] text-fuchsia !mr-4" alt="image">
+                <div class="row mt-24">
+                    <div class="col-md-6" data-aos="zoom-in">
+                            
+                        <div class="about-client-box info-box shadow-box">
+                            <img src="assets/images/bg1.png" alt="BG" class="bg-img">
+                            <div class="clients d-flex align-items-start gap-24 justify-content-center">
+                                <div class="client-item">
+                                    <h1>07</h1>
+                                    <p>Years <br>Experience</p>
+                                </div>
+
+                                <div class="client-item">
+                                    <h1>+125</h1>
+                                    <p>CLIENTS <br>WORLDWIDE</p>
+                                </div>
+
+                                <div class="client-item">
+                                    <h1>+210</h1>
+                                    <p>Total <br>Projects</p>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
-                    <div>
-                      <h4 class="!mb-1">Creativity</h4>
-                      <p class="!mb-0">Curabitur blandit lacus porttitor ridiculus mus.</p>
+                    <div class="col-md-6" data-aos="zoom-in">
+                            
+                        <div class="about-contact-box info-box shadow-box">
+                            <a class="overlay-link" href="contact.html"></a>
+                            <img src="assets/images/bg1.png" alt="BG" class="bg-img">
+                            <img src="assets/images/icon2.png" alt="Icon" class="star-icon">
+                            <h1>Let's <br>work <span>together.</span></h1>
+                            <a href="#" class="about-btn">
+                                <img src="assets/images/icon.svg" alt="Button">
+                            </a>
+                        </div>
+
                     </div>
-                  </div>
                 </div>
-                <!--/column -->
-                <div class="xl:w-6/12 lg:w-6/12 md:w-6/12 w-full flex-[0_0_auto] px-[15px] max-w-full mt-[30px]">
-                  <div class="flex flex-row">
-                    <div>
-                      <img src="assets/img/icons/solid/bulb.svg" class="svg-inject icon-svg !w-[1.8rem] !h-[1.8rem]  solid-mono text-[#a07cc5] text-violet !mr-4" alt="image">
-                    </div>
-                    <div>
-                      <h4 class="!mb-1">Innovative Thinking</h4>
-                      <p class="!mb-0">Curabitur blandit lacus porttitor ridiculus mus.</p>
-                    </div>
-                  </div>
-                </div>
-                <!--/column -->
-                <div class="xl:w-6/12 lg:w-6/12 md:w-6/12 w-full flex-[0_0_auto] px-[15px] max-w-full mt-[30px]">
-                  <div class="flex flex-row">
-                    <div>
-                      <img src="assets/img/icons/solid/puzzle.svg" class="svg-inject icon-svg !w-[1.8rem] !h-[1.8rem]  solid-mono text-[#f78b77] text-orange !mr-4" alt="image">
-                    </div>
-                    <div>
-                      <h4 class="!mb-1">Rapid Solutions</h4>
-                      <p class="!mb-0">Curabitur blandit lacus porttitor ridiculus mus.</p>
-                    </div>
-                  </div>
-                </div>
-                <!--/column -->
-                <div class="xl:w-6/12 lg:w-6/12 md:w-6/12 w-full flex-[0_0_auto] px-[15px] max-w-full mt-[30px]">
-                  <div class="flex flex-row">
-                    <div>
-                      <img src="assets/img/icons/solid/headphone.svg" class="svg-inject icon-svg !w-[1.8rem] !h-[1.8rem]  solid-mono text-[#45c4a0] text-green !mr-4" alt="image">
-                    </div>
-                    <div>
-                      <h4 class="!mb-1">Top-Notch Support</h4>
-                      <p class="!mb-0">Curabitur blandit lacus porttitor ridiculus mus.</p>
-                    </div>
-                  </div>
-                </div>
-                <!--/column -->
-              </div>
-              <!--/.row -->
             </div>
-            <!--/column -->
-          </div>
-          <!--/.row -->
-          <div class="flex flex-wrap mx-[-15px] !text-center mb-7">
-            <div class="lg:w-11/12 xl:w-10/12 xxl:w-9/12 w-full flex-[0_0_auto] px-[15px] max-w-full !mx-auto">
-              <h2 class="text-[0.8rem] tracking-[0.02rem] uppercase text-[#aab0bc] !mb-3 !leading-[1.35]">Join Our Community</h2>
-              <h3 class="xl:text-[2.1rem] text-[calc(1.335rem_+_1.02vw)] !leading-[1.2] font-semibold lg:!px-14 xxl:!px-[4.5rem]">We are trusted by over 5000+ clients. Join them now and grow your business.</h3>
-            </div>
-            <!-- /column -->
-          </div>
-          <!-- /.row -->
-          <div class="flex flex-wrap mx-[-15px] !mb-6">
-            <div class="md:w-10/12 lg:w-9/12 xl:w-7/12 w-full flex-[0_0_auto] px-[15px] max-w-full !mx-auto">
-              <div class="flex flex-wrap mx-[-15px] items-center counter-wrapper mt-[-20px] xl:mt-0 lg:mt-0 md:mt-0">
-                <div class="xl:w-4/12 lg:w-4/12 md:w-4/12 w-full flex-[0_0_auto] px-[15px] max-w-full !text-center mt-[20px] xl:mt-0 lg:mt-0 md:mt-0">
-                  <h3 class="counter counter-lg xl:text-[2.2rem] text-[calc(1.35rem_+_1.2vw)] !leading-none tracking-[normal] mb-2  text-[#747ed1]">1000+</h3>
-                  <p class="!font-medium !mb-0">Completed Projects</p>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer-area">
+            <div class="container">
+                <div class="footer-content text-center">
+                    <a href="index.html" class="logo">
+                        <img src="assets/images/logo.svg" alt="Logo">
+                    </a>
+                    <ul class="footer-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="works.html">Works</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                    <p class="copyright">
+                        &copy; All rights reserved by <span>Thilina J.</span>
+                    </p>
                 </div>
-                <!--/column -->
-                <div class="xl:w-4/12 lg:w-4/12 md:w-4/12 w-full flex-[0_0_auto] px-[15px] max-w-full !text-center mt-[20px] xl:mt-0 lg:mt-0 md:mt-0">
-                  <h3 class="counter counter-lg xl:text-[2.2rem] text-[calc(1.35rem_+_1.2vw)] !leading-none tracking-[normal] mb-2  text-[#747ed1]">50K+</h3>
-                  <p class="!font-medium !mb-0">Happy Customers</p>
-                </div>
-                <!--/column -->
-                <div class="xl:w-4/12 lg:w-4/12 md:w-4/12 w-full flex-[0_0_auto] px-[15px] max-w-full !text-center mt-[20px] xl:mt-0 lg:mt-0 md:mt-0">
-                  <h3 class="counter counter-lg xl:text-[2.2rem] text-[calc(1.35rem_+_1.2vw)] !leading-none tracking-[normal] mb-2  text-[#747ed1]">4x</h3>
-                  <p class="!font-medium !mb-0">Revenue Growth</p>
-                </div>
-                <!--/column -->
-              </div>
-              <!--/.row -->
             </div>
-            <!-- /column -->
-          </div>
-          <!-- /.row -->
-          <figure class="m-0 p-0"><img class="w-full max-w-full !h-auto" src="assets/img/photos/about26.png" srcset="assets/img/photos/about26%402x.png 2x" alt="image"></figure>
-        </div>
-        <!-- /.container -->
-      </section>
-      <!-- /section -->
-    </div>
-    <!-- /.content-wrapper -->
-    <footer class=" bg-[#21262c] opacity-100  text-[#cacaca]">
-      <div class="container py-16 xl:!py-20 lg:!py-20 md:!py-20">
-        <div class="flex flex-wrap mx-[-15px] mt-[-30px] xl:mt-0 lg:mt-0">
-          <div class="md:w-4/12 xl:w-3/12 lg:w-3/12 w-full flex-[0_0_auto] px-[15px] max-w-full xl:mt-0 lg:mt-0 mt-[30px]">
-            <div class="widget text-[#cacaca]">
-              <img class="!mb-4" src="assets/img/logo-light.png" srcset="assets/img/logo-light%402x.png 2x" alt="image">
-              <p class="!mb-4">© 2024 Sandbox. <br class="hidden xl:block lg:block text-[#cacaca]">All rights reserved.</p>
-              <nav class="nav social social-white">
-                <a class="text-[#cacaca] text-[1rem] transition-all duration-[0.2s] ease-in-out translate-y-0 motion-reduce:transition-none hover:translate-y-[-0.15rem] m-[0_.7rem_0_0]" href="#"><i class="uil uil-twitter before:content-['\ed59'] !text-white text-[1rem]"></i></a>
-                <a class="text-[#cacaca] text-[1rem] transition-all duration-[0.2s] ease-in-out translate-y-0 motion-reduce:transition-none hover:translate-y-[-0.15rem] m-[0_.7rem_0_0]" href="#"><i class="uil uil-facebook-f before:content-['\eae2'] !text-white text-[1rem]"></i></a>
-                <a class="text-[#cacaca] text-[1rem] transition-all duration-[0.2s] ease-in-out translate-y-0 motion-reduce:transition-none hover:translate-y-[-0.15rem] m-[0_.7rem_0_0]" href="#"><i class="uil uil-dribbble before:content-['\eaa2'] !text-white text-[1rem]"></i></a>
-                <a class="text-[#cacaca] text-[1rem] transition-all duration-[0.2s] ease-in-out translate-y-0 motion-reduce:transition-none hover:translate-y-[-0.15rem] m-[0_.7rem_0_0]" href="#"><i class="uil uil-instagram before:content-['\eb9c'] !text-white text-[1rem]"></i></a>
-                <a class="text-[#cacaca] text-[1rem] transition-all duration-[0.2s] ease-in-out translate-y-0 motion-reduce:transition-none hover:translate-y-[-0.15rem] m-[0_.7rem_0_0]" href="#"><i class="uil uil-youtube before:content-['\edb5'] !text-white text-[1rem]"></i></a>
-              </nav>
-              <!-- /.social -->
-            </div>
-            <!-- /.widget -->
-          </div>
-          <!-- /column -->
-          <div class="md:w-4/12 xl:w-3/12 lg:w-3/12 w-full flex-[0_0_auto] px-[15px] max-w-full xl:mt-0 lg:mt-0 mt-[30px]">
-            <div class="widget text-[#cacaca]">
-              <h4 class="widget-title text-white !mb-3">Get in Touch</h4>
-              <address class="xl:pr-20 xxl:!pr-28 not-italic leading-[inherit] block mb-4">Kandy Road, warakapola,<br> Sri Lanka</address>
-              <a class="text-[#cacaca] hover:text-[#747ed1]" href="mailto:first.last@email.com">info@devlab.lk</a><br> +94 76 230 1111
-            </div>
-            <!-- /.widget -->
-          </div>
-          <!-- /column -->
-          <div class="md:w-4/12 xl:w-3/12 lg:w-3/12 w-full flex-[0_0_auto] px-[15px] max-w-full xl:mt-0 lg:mt-0 mt-[30px]">
-            <div class="widget text-[#cacaca]">
-              <h4 class="widget-title text-white !mb-3">Learn More</h4>
-              <ul class="pl-0 list-none   !mb-0">
-                <li><a class="text-[#cacaca] hover:text-[#747ed1]" href="#">About Us</a></li>
-                <li class="mt-[0.35rem]"><a class="text-[#cacaca] hover:text-[#747ed1]" href="#">Our Story</a></li>
-                <li class="mt-[0.35rem]"><a class="text-[#cacaca] hover:text-[#747ed1]" href="#">Projects</a></li>
-                <li class="mt-[0.35rem]"><a class="text-[#cacaca] hover:text-[#747ed1]" href="#">Terms of Use</a></li>
-                <li class="mt-[0.35rem]"><a class="text-[#cacaca] hover:text-[#747ed1]" href="#">Privacy Policy</a></li>
-              </ul>
-            </div>
-            <!-- /.widget -->
-          </div>
-          <!-- /column -->
-          <div class="md:w-full xl:w-3/12 lg:w-3/12 w-full flex-[0_0_auto] px-[15px] max-w-full xl:mt-0 lg:mt-0 mt-[30px]">
-            <div class="widget text-[#cacaca]">
-              <h4 class="widget-title text-white !mb-3">Our Newsletter</h4>
-              <p class="!mb-5">Subscribe to our newsletter to get our news & deals delivered to you.</p>
-              <div class="newsletter-wrapper">
-                <!-- Begin Mailchimp Signup Form -->
-                <div id="mc_embed_signup2">
-                  <form action="https://elemisfreebies.us20.list-manage.com/subscribe/post?u=aa4947f70a475ce162057838d&amp;id=b49ef47a9a" method="post" id="mc-embedded-subscribe-form2" name="mc-embedded-subscribe-form" class="validate dark-fields" target="_blank" novalidate="">
-                    <div id="mc_embed_signup_scroll2">
-                      <div class="!text-left input-group form-floating !relative flex flex-wrap items-stretch w-full">
-                        <input type="email" value="" name="EMAIL" class="required email form-control block w-full text-[12px] font-medium leading-[1.7] appearance-none bg-clip-padding shadow-[0_0_1.25rem_rgba(30,34,40,0.04)] px-4 py-[0.6rem] rounded-[0.4rem] motion-reduce:transition-none focus:text-[#60697b] focus:bg-[rgba(255,255,255,.03)] focus:shadow-[0_0_1.25rem_rgba(30,34,40,0.04),unset] disabled:bg-[#aab0bc] disabled:opacity-100 file:mt-[-0.6rem] file:mr-[-1rem] file:mb-[-0.6rem] file:ml-[-1rem] file:text-[#60697b] file:bg-[#fefefe] file:pointer-events-none file:transition-all file:duration-[0.2s] file:ease-in-out file:px-4 file:py-[0.6rem] file:rounded-none motion-reduce:file:transition-none placeholder:text-[#959ca9] placeholder:opacity-100 border border-solid !border-[rgba(255,255,255,0.1)] text-[#cacaca] focus:!border-[rgba(63,120,224,0.5)] bg-[rgba(255,255,255,.03)] focus-visible:!border-[rgba(63,120,224,0.5)] focus-visible:!outline-0" placeholder="Email Address" id="mce-EMAIL2">
-                        <label class="!ml-[0.05rem] text-[#959ca9] text-[.75rem] absolute z-[2] h-full overflow-hidden text-start text-ellipsis whitespace-nowrap pointer-events-none origin-[0_0] px-4 py-[0.6rem] left-0 top-0" for="mce-EMAIL2">Email Address</label>
-                        <input type="submit" value="Join" name="subscribe" id="mc-embedded-subscribe2" class="btn btn-purple text-white !bg-[#747ed1] border-[#747ed1] hover:text-white hover:bg-[#747ed1] hover:border-[#747ed1] focus:shadow-[rgba(92,140,229,1)] active:text-white active:bg-[#747ed1] active:border-[#747ed1] disabled:text-white disabled:bg-[#747ed1] disabled:border-[#747ed1] !relative z-[2] focus:z-[5] hover:!transform-none border-0">
-                      </div>
-                      <div id="mce-responses2" class="clear">
-                        <div class="response" id="mce-error-response2" style="display:none"></div>
-                        <div class="response" id="mce-success-response2" style="display:none"></div>
-                      </div> <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_ddc180777a163e0f9f66ee014_4b1bcfa0bc" tabindex="-1" value=""></div>
-                      <div class="clear"></div>
-                    </div>
-                  </form>
-                </div>
-                <!--End mc_embed_signup-->
-              </div>
-              <!-- /.newsletter-wrapper -->
-            </div>
-            <!-- /.widget -->
-          </div>
-          <!-- /column -->
-        </div>
-        <!--/.row -->
-      </div>
-      <!-- /.container -->
-    </footer>
-  </div>
-  <!-- progress wrapper -->
-  <div class="progress-wrap fixed w-[2.3rem] h-[2.3rem] cursor-pointer block shadow-[inset_0_0_0_0.1rem_rgba(128,130,134,0.25)] z-[1010] opacity-0 invisible translate-y-3 transition-all duration-[0.2s] ease-[linear,margin-right] delay-[0s] rounded-[100%] right-6 bottom-6 motion-reduce:transition-none after:absolute after:content-['\e951'] after:text-center after:leading-[2.3rem] after:text-[1.2rem] after:text-[#605dba] after:h-[2.3rem] after:w-[2.3rem] after:cursor-pointer after:block after:z-[1] after:transition-all after:duration-[0.2s] after:ease-linear after:left-0 after:top-0 motion-reduce:after:transition-none after:font-Unicons">
-    <svg class="progress-circle svg-content" width="100%" height="100%" viewbox="-1 -1 102 102">
-      <path class="fill-none stroke-[#605dba] stroke-[4] box-border transition-all duration-[0.2s] ease-linear motion-reduce:transition-none" d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
-    </svg>
-  </div>
-  <script src="assets/js/plugins.js"></script>
-  <script src="assets/js/theme.js"></script>
+        </footer>
+
+    </main>
+    
+
+    <script src="assets/js/jquery-3.6.4.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
