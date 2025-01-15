@@ -510,7 +510,7 @@ ol {
 .about-area .about-me-box .infos h1 {
     font-size: 32px;
     line-height: 40px;
-    color: var(--primary_color);;
+    color: #fff;
     font-weight: 500;
     margin-bottom: 12px;
 }
