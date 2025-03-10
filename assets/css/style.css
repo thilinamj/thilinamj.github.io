@@ -674,6 +674,14 @@ ol {
     font-weight: 500;
 }
 
+.projects-area .project-item .project-info h1 {
+    font-size: 18px;
+    color: #ffffff;
+    opacity: 0.9;
+    font-weight: 500;
+    margin: 0;
+}
+
 .about-area .about-details .about-details-inner p {
     color: #FFFFFF;
     opacity: 0.8;
@@ -762,14 +770,6 @@ ol {
     margin-bottom: 2px;
     font-weight: 400;
     margin-top: 5px;
-}
-
-.projects-area .project-item .project-info h1 {
-    font-size: 16px !important;
-    color: #ffffff;
-    opacity: 1;
-    font-weight: 500;
-    margin: 0;
 }
 
 .projects-area .project-item .project-btn {
