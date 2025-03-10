@@ -666,16 +666,16 @@ ol {
 }
 .projects-area .project-item .project-info p {
     color: #BCBCBC;
-    opacity: 0.5;
+    opacity: 0.8;
     font-size: 14px;
-    text-transform: uppercase;
     margin-bottom: 2px;
+    font-weight: 400;
     margin-top: 5px;
 }
 .projects-area .project-item .project-info h1 {
-    font-size: 22px;
+    font-size: 18px;
     color: #ffffff;
-    opacity: 0.9;
+    opacity: 1;
     font-weight: 500;
     margin: 0;
 }
