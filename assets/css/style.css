@@ -674,8 +674,11 @@ ol {
     font-weight: 500;
 }
 
-.projects-area .project-item .project-info h1 {
+.project-info h1 {
     font-size: 18px;
+}
+
+.projects-area .project-item .project-info h1 {
     color: #ffffff;
     opacity: 0.9;
     font-weight: 500;
